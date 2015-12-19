@@ -1,0 +1,17 @@
+Thu, 22 Oct 2015 12:36:06 +0530 [::1] Sample logging
+Thu, 22 Oct 2015 12:36:14 +0530 [::1] Sample logging
+Thu, 22 Oct 2015 14:42:56 +0530 [::1] Thu, 22 Oct 2015 14:42:56 +0530 (0.1ms) SHOW columns FROM `vatsav`.`users`;
+Thu, 22 Oct 2015 14:42:56 +0530 (0.2ms) SELECT `user_id`,`user_name`,`password`,`email`,`first_name`,`last_name`,`phone`,`gender`,`online_status`,`last_active` FROM `users` WHERE user_name = 'ramkey.sam@gmail.com' or email = 'ramkey.sam@gmail.com' LIMIT 1
+Thu, 22 Oct 2015 14:42:56 +0530 (0.1ms) SHOW columns FROM `vatsav`.`location`;
+Thu, 22 Oct 2015 14:42:56 +0530 (0.2ms) INSERT INTO `location` (`user_name`,`latitude`,`longitude`,`location`) VALUES ('ramkey.sam@gmail.com','17.4502375','17.4502375','103/136, Anjaiah Nagar, Gachibowli, Hyderabad, Telangana 500081, India')
+Thu, 22 Oct 2015 14:42:56 +0530 (0.2ms) SELECT `user_name`,`latitude`,`longitude`,`location` FROM `location` WHERE
+Thu, 22 Oct 2015 15:03:43 +0530 [::1] Thu, 22 Oct 2015 15:03:42 +0530 (0.1ms) SHOW columns FROM `vatsav`.`users`;
+Thu, 22 Oct 2015 15:03:42 +0530 (0.2ms) SELECT `user_id`,`user_name`,`password`,`email`,`first_name`,`last_name`,`phone`,`gender`,`online_status`,`last_active` FROM `users` WHERE user_name = 'ramkey.sam@gmail.com' or email = 'ramkey.sam@gmail.com' LIMIT 1
+Thu, 22 Oct 2015 15:03:42 +0530 (0.1ms) SHOW columns FROM `vatsav`.`location`;
+Thu, 22 Oct 2015 15:03:42 +0530 (0.2ms) INSERT INTO `location` (`user_name`,`latitude`,`longitude`,`location`) VALUES ('ramkey.sam@gmail.com','17.4502375','17.4502375','103/136, Anjaiah Nagar, Gachibowli, Hyderabad, Telangana 500081, India')
+Thu, 22 Oct 2015 15:03:43 +0530 (0.1ms) SELECT `location_id`,`user_name`,`latitude`,`longitude`,`location` FROM `location` WHERE location_id=2
+Thu, 22 Oct 2015 15:04:29 +0530 [::1] Thu, 22 Oct 2015 15:04:29 +0530 (0.1ms) SHOW columns FROM `vatsav`.`users`;
+Thu, 22 Oct 2015 15:04:29 +0530 (0.2ms) SELECT `user_id`,`user_name`,`password`,`email`,`first_name`,`last_name`,`phone`,`gender`,`online_status`,`last_active` FROM `users` WHERE user_name = 'ramkey.sam@gmail.com' or email = 'ramkey.sam@gmail.com' LIMIT 1
+Thu, 22 Oct 2015 15:04:29 +0530 (0.1ms) SHOW columns FROM `vatsav`.`location`;
+Thu, 22 Oct 2015 15:04:29 +0530 (0.2ms) INSERT INTO `location` (`user_name`,`latitude`,`longitude`,`location`) VALUES ('rama','17.4502375','17.4502375','103/136, Anjaiah Nagar, Gachibowli, Hyderabad, Telangana 500081, India')
+Thu, 22 Oct 2015 15:04:29 +0530 (0.2ms) SELECT `location_id`,`user_name`,`latitude`,`longitude`,`location` FROM `location` WHERE location_id=1
